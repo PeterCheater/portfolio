@@ -419,18 +419,18 @@ header {
 .project img {
     height: 15rem;
     object-fit: cover;
+    border: solid black 1px
 }
 
-.project-action {
+.proj-action {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
 
-.project-action .btn {
-    border-radius: 10px;
-    background: var(--color-dark);
-    margin-bottom: 1rem;
+.proj-action .btn {
+    border-radius: 50px;
+    margin-bottom: 0rem;
 }
 
 .contact-container {
@@ -646,7 +646,7 @@ footer {
         gap: 0;
     }
 
-    .project-action {
+    .proj-action {
         margin: 0;
     }
 }
